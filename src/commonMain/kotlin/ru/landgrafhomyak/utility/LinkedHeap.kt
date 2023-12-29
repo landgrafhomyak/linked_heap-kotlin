@@ -22,10 +22,10 @@ abstract class LinkedHeap<T : Any> {
     protected abstract fun _getLeft(parent: T): T?
     protected abstract fun _setLeft(parent: T, leftChild: T?)
     protected abstract fun _getRight(parent: T): T?
-    protected abstract fun _setRight(parent: T, rightChild: T?): T?
+    protected abstract fun _setRight(parent: T, rightChild: T?)
     protected abstract fun _compare(left: T, right: T): Int
-    protected abstract fun _getSubtreeSize(node: T): UInt
-    protected abstract fun _setSubtreeSize(node: T, size: UInt)
+    protected abstract fun _getSubtreeSize(node: T): ULong
+    protected abstract fun _setSubtreeSize(node: T, size: ULong)
     protected open fun _incSubtreeSize(node: T) {
         this._setSubtreeSize(node, this._getSubtreeSize(node) + 1u)
     }
@@ -455,5 +455,11 @@ abstract class LinkedHeap<T : Any> {
         private const val REBALANCEDOWN_FINISHED = 0
         private const val REBALANCEDOWN_LEFT = 1
         private const val REBALANCEDOWN_RIGHT = 2
+
+
+        val PARENT_DEFAULT_VALUE: Nothing? = null
+        val LEFT_DEFAULT_VALUE: Nothing? = null
+        val RIGHT_DEFAULT_VALUE: Nothing? = null
+        const val SUBTREE_SIZE_DEFAULT_VALUE: ULong = 0uL
     }
 }
