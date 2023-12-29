@@ -1,0 +1,862 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.landgrafhomyak.utility",
+    "module": "linked-heap",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "linked-heap-metadata-0.1.jar",
+          "url": "linked-heap-0.1.jar",
+          "size": 4593,
+          "sha512": "8173dc6a110011310a1853cc32aa6dd7181b3bd5d6123323c3c1c9413dd07dc098fd3bb301fce8a9f55a7983d5b922d050dc121f35e61133a4062b97a1669bfa",
+          "sha256": "6a3d21d663b6116738fbc1b90d34bf7a7d4cd7cd494c276c51ed02c393e6f22f",
+          "sha1": "1a8623ac497bb000d5b7d7751053dd059e867dec",
+          "md5": "71a8f56d7ccb3ba5f6ba38afa0da4303"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "linked-heap-kotlin-0.1-sources.jar",
+          "url": "linked-heap-0.1-sources.jar",
+          "size": 3644,
+          "sha512": "10bfbf3118806799501c532b62f74ca93bd57cc60c7448e54ba8c42248154176143328d44c6f9c71ba5d4a8614a2eebd47afd6e0cf8440ee9e8149402c3be386",
+          "sha256": "50518f77bd130d9e119d0499fc70ad20a920b9efbc91ba2bb6f7dab893cdefa7",
+          "sha1": "4ad4769aad2688ee58ba9c95436f9986d04e9453",
+          "md5": "50b90e4dc700ad38705c01ba4d044d87"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativearm32/0.1/linked-heap-androidnativearm32-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativearm32",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativearm32/0.1/linked-heap-androidnativearm32-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativearm32",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativearm64/0.1/linked-heap-androidnativearm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativearm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativearm64/0.1/linked-heap-androidnativearm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativearm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativex64/0.1/linked-heap-androidnativex64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativex64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativex64/0.1/linked-heap-androidnativex64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativex64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativex86/0.1/linked-heap-androidnativex86-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativex86",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-androidnativex86/0.1/linked-heap-androidnativex86-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-androidnativex86",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iosarm64/0.1/linked-heap-iosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iosarm64/0.1/linked-heap-iosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iosarm64/0.1/linked-heap-iosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iossimulatorarm64/0.1/linked-heap-iossimulatorarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iossimulatorarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iossimulatorarm64/0.1/linked-heap-iossimulatorarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iossimulatorarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iossimulatorarm64/0.1/linked-heap-iossimulatorarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iossimulatorarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iosx64/0.1/linked-heap-iosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iosx64/0.1/linked-heap-iosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-iosx64/0.1/linked-heap-iosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-iosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../linked-heap-js/0.1/linked-heap-js-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../linked-heap-js/0.1/linked-heap-js-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../linked-heap-js/0.1/linked-heap-js-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-js",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../linked-heap-jvm/0.1/linked-heap-jvm-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../linked-heap-jvm/0.1/linked-heap-jvm-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../linked-heap-jvm/0.1/linked-heap-jvm-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-jvm",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-linuxarm64/0.1/linked-heap-linuxarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-linuxarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-linuxarm64/0.1/linked-heap-linuxarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-linuxarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-linuxx64/0.1/linked-heap-linuxx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-linuxx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-linuxx64/0.1/linked-heap-linuxx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-linuxx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-macosarm64/0.1/linked-heap-macosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-macosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-macosarm64/0.1/linked-heap-macosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-macosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-macosarm64/0.1/linked-heap-macosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-macosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-macosx64/0.1/linked-heap-macosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-macosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-macosx64/0.1/linked-heap-macosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-macosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-macosx64/0.1/linked-heap-macosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-macosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-mingwx64/0.1/linked-heap-mingwx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-mingwx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-mingwx64/0.1/linked-heap-mingwx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-mingwx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-tvosarm64/0.1/linked-heap-tvosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-tvosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-tvosarm64/0.1/linked-heap-tvosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-tvosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-tvosarm64/0.1/linked-heap-tvosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-tvosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-tvosx64/0.1/linked-heap-tvosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-tvosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-tvosx64/0.1/linked-heap-tvosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-tvosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-tvosx64/0.1/linked-heap-tvosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-tvosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosarm32/0.1/linked-heap-watchosarm32-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosarm32",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosarm32/0.1/linked-heap-watchosarm32-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosarm32",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosarm32/0.1/linked-heap-watchosarm32-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosarm32",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosarm64/0.1/linked-heap-watchosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosarm64/0.1/linked-heap-watchosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosarm64/0.1/linked-heap-watchosarm64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosarm64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosx64/0.1/linked-heap-watchosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosx64/0.1/linked-heap-watchosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosx64",
+        "version": "0.1"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../linked-heap-watchosx64/0.1/linked-heap-watchosx64-0.1.module",
+        "group": "ru.landgrafhomyak.utility",
+        "module": "linked-heap-watchosx64",
+        "version": "0.1"
+      }
+    }
+  ]
+}

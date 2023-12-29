@@ -1,0 +1,71 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../linked-heap/0.1/linked-heap-0.1.module",
+    "group": "ru.landgrafhomyak.utility",
+    "module": "linked-heap",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "linked-heap.klib",
+          "url": "linked-heap-androidnativearm64-0.1.klib",
+          "size": 27165,
+          "sha512": "4105ff0d70ac4995d6aa02090c2441ba2909d45df45d8ae428da2fe7ccda37c213e02b7e7b7dfcddc260c1e197457a5b42e7a0e74ea29e986ef03718edbcbb8f",
+          "sha256": "ce1fe39148011bf52d176ad3b8c7be9546e246186b4f46da7a6c2764ce245ddb",
+          "sha1": "8ee2bd3d1a1b8d0c0dc546d006e55c08f2a721e9",
+          "md5": "ec217b1659586ecdb936feb95c891355"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "linked-heap-androidnativearm64-0.1-sources.jar",
+          "url": "linked-heap-androidnativearm64-0.1-sources.jar",
+          "size": 3644,
+          "sha512": "10bfbf3118806799501c532b62f74ca93bd57cc60c7448e54ba8c42248154176143328d44c6f9c71ba5d4a8614a2eebd47afd6e0cf8440ee9e8149402c3be386",
+          "sha256": "50518f77bd130d9e119d0499fc70ad20a920b9efbc91ba2bb6f7dab893cdefa7",
+          "sha1": "4ad4769aad2688ee58ba9c95436f9986d04e9453",
+          "md5": "50b90e4dc700ad38705c01ba4d044d87"
+        }
+      ]
+    }
+  ]
+}

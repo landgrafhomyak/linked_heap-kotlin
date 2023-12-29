@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../linked-heap/0.1/linked-heap-0.1.module",
+    "group": "ru.landgrafhomyak.utility",
+    "module": "linked-heap",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "linked-heap-jvm-0.1.jar",
+          "url": "linked-heap-jvm-0.1.jar",
+          "size": 31846,
+          "sha512": "32b9b1ba698eb331137fb06eb0d201492450a76eb59ba72b3cf96ce9dbe0b1180760123194ba02924d3c42a4001df46264a2894ee031e33aaf6381852567044a",
+          "sha256": "95b298a4ccf978d9d2502c7c3242bfe75a916866e06c7b1f02386820a8330747",
+          "sha1": "9e5a3cf6945cab79f1a7f02f072a6182161a6206",
+          "md5": "bde14f0fa1814ad07aeece42eaf01ebe"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "linked-heap-jvm-0.1.jar",
+          "url": "linked-heap-jvm-0.1.jar",
+          "size": 31846,
+          "sha512": "32b9b1ba698eb331137fb06eb0d201492450a76eb59ba72b3cf96ce9dbe0b1180760123194ba02924d3c42a4001df46264a2894ee031e33aaf6381852567044a",
+          "sha256": "95b298a4ccf978d9d2502c7c3242bfe75a916866e06c7b1f02386820a8330747",
+          "sha1": "9e5a3cf6945cab79f1a7f02f072a6182161a6206",
+          "md5": "bde14f0fa1814ad07aeece42eaf01ebe"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "linked-heap-jvm-0.1-sources.jar",
+          "url": "linked-heap-jvm-0.1-sources.jar",
+          "size": 3644,
+          "sha512": "10bfbf3118806799501c532b62f74ca93bd57cc60c7448e54ba8c42248154176143328d44c6f9c71ba5d4a8614a2eebd47afd6e0cf8440ee9e8149402c3be386",
+          "sha256": "50518f77bd130d9e119d0499fc70ad20a920b9efbc91ba2bb6f7dab893cdefa7",
+          "sha1": "4ad4769aad2688ee58ba9c95436f9986d04e9453",
+          "md5": "50b90e4dc700ad38705c01ba4d044d87"
+        }
+      ]
+    }
+  ]
+}
