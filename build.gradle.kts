@@ -3,7 +3,7 @@ plugins {
     `maven-publish`
 }
 
-group = "ru.landgrafhomyak"
+group = "ru.landgrafhomyak.utility"
 version = "0.1"
 
 repositories {
